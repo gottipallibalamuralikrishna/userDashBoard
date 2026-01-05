@@ -46,7 +46,6 @@ const EmployeeEditDialog: React.FC<EmployeeEditDialogProps> = ({
 
     updateEmployee({
       ...form,
-      image: preview || undefined,
     });
 
     onClose();

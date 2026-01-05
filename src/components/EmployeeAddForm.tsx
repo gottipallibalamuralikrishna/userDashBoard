@@ -47,7 +47,6 @@ const EmployeeAddForm = () => {
     addEmployee({
       id: Date.now(),
       ...form,
-      image: preview || undefined,
     });
 
     resetForm();
